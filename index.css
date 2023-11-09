@@ -14,11 +14,7 @@ body {
   ); /* Gradient from #4ca1af to #c4e0e5 */
   height: 100vh;
 }
-/* .main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+
 
 h1 {
   display: flex;
