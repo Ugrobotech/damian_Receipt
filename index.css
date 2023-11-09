@@ -12,6 +12,7 @@ body {
     #4ca1af,
     #c4e0e5
   ); /* Gradient from #4ca1af to #c4e0e5 */
+  height: 100vh;
 }
 
 h1 {
@@ -44,4 +45,3 @@ span {
     width: 100%;
   }
 }
-
