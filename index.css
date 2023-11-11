@@ -33,21 +33,32 @@ h1 img {
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: left;
-  font-weight: bold;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 span {
-  font-style: italic;
-  font-weight: lighter;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 footer {
   text-align: center;
   padding: 3px;
-  font-weight: lighter;
+  font-weight: light;
   font-size: small;
   /* color: white; */
 }
 
 @media (max-width: 600px) {
+  .content p {
+    width: 100%;
+    font-size: small;
+    height: auto;
+  }
+}
+
+@media screen and (device-width: 375px) and (device-height: 812px) {
   .content p {
     width: 100%;
     font-size: small;
